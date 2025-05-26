@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    background-color: #333333; /* Dark grey background */
+    background-color:#333333
 }
 
 .header {
@@ -14,7 +14,7 @@ body {
 }
 
 .logo h1 {
-    color: #dc3545; /* Red for brand */
+    color: #dc3545; 
     margin: 0;
     font-size: 2rem;
 }
@@ -103,7 +103,7 @@ nav ul li a:hover {
 }
 
 .contact-form-details {
-    overflow: hidden; /* Clearfix for floated elements */
+    overflow: hidden; 
 }
 
 
@@ -157,7 +157,7 @@ nav ul li a:hover {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0.5rem;
-    background-color: #f8f9fa; /* Light grey for form inputs */
+    background-color: #f8f9fa; 
 }
 
 .form-content .btn {
