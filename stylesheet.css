@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #333333; /* Dark grey background */
+}
+
+.header {
+    background-color: #343a40;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #dc3545; /* Red for brand */
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #dc3545;
+}
+
+.items, .contactus, .aboutus, .feedback, .home {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.items section {
+    margin-bottom: 2rem;
+}
+
+.items h2 {
+    color: #dc3545;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.beef, .pork, .chicken {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.stew, .t-bone, .steak, .ribs, .pork-steak, .belly, .full, .wings, .drumstick {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.stew:hover, .t-bone:hover, .steak:hover, .ribs:hover, .pork-steak:hover, .belly:hover, .full:hover, .wings:hover, .drumstick:hover {
+    transform: scale(1.05);
+}
+
+.stew img, .t-bone img, .steak img, .ribs img, .pork-steak img, .belly img, .full img, .wings img, .drumstick img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.stew p, .t-bone p, .steak p, .ribs p, .pork-steak p, .belly p, .full p, .wings p, .drumstick p {
+    color: #333;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+.contact-form-details, .map-container {
+    display: block;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    margin-bottom: 2rem;
+}
+
+.contact-form-details {
+    overflow: hidden; /* Clearfix for floated elements */
+}
+
+
+.details-content {
+    width: 45%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.form-content {
+    width: 45%;
+    float: right;
+}
+
+.details-content h2, .form-content h2, .map-container h2 {
+    color: #dc3545;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.details-content p, .form-content p {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.details-content .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.details-content a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.details-content a:hover {
+    text-decoration: underline;
+}
+
+.form-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-content .form-label {
+    color: #333;
+    font-weight: bold;
+}
+
+.form-content .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: #f8f9fa; /* Light grey for form inputs */
+}
+
+.form-content .btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-content .btn:hover {
+    background-color: #c82333;
+}
+
+.map-container iframe {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.aboutus, .feedback, .home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.article, .our-story, .mission, .message, .welcome {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.article h2, .our-story h2, .mission h2, .message h2, .welcome h2 {
+    color: #dc3545;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.article p, .message p, .welcome p {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome .btn {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #dc3545;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .items section {
+        flex-direction: column;
+    }
+
+    .stew, .t-bone, .steak, .ribs, .pork-steak, .belly, .full, .wings, .drumstick {
+        flex: 1 1 100%;
+    }
+
+    .contactus, .aboutus, .feedback, .home {
+        flex-direction: column;
+    }
+
+    .contact-form-details, .map-container, .article, .our-story, .mission, .message, .welcome {
+        flex: 1 1 100%;
+    }
+
+    .details-content, .form-content {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+}
+
+.article,.form-container{
+    float:right;
+}
+
+.article,.our-contact{
+    float:left;
+}
+.map-container{
+    clear:both;
+}
